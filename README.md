@@ -18,7 +18,7 @@ _This project uses TypeScript and Angular to create  components and compile code
 ## <span style="color:#74875d;">Setup/Installation Requirements</span> :computer:
 
 * Clone repository on your local computer.
-* If you already have Node, Homebrew, and Karma installed, then skip to **Install Dependencies**.
+* If you already have Node, Homebrew, TypeScript, and Angular installed, then skip to **Install Dependencies**.
 
   #### Node: Windows / Linux Installation Instructions
   To install `Node` on other systems, go to the <a href="https://nodejs.org/en/">Node website</a>, download and install the appropriate installer for your operating system.
@@ -42,34 +42,31 @@ _This project uses TypeScript and Angular to create  components and compile code
   ```sh
     $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
   ```
-  #### Karma Installation
-  If you do not have `Karma` installed globally, then run the following:
+  #### TypeScript Installation
+  If you do not have `TypeScript` installed globally, then run the following:
   ```sh   
-    $ npm install -g karma-cli
+    $ npm install typescript -g
    ```
-  #### Install dependencies
-  Enter the following code in the command line to install all dependencies:
+  #### TypeScript Installation
+  If you do not have `Angular` installed globally, then run the following:
   ```sh
-    $ npm install
+    $ npm install -g @angular/cli@1.6.5
+  ```
+  #### Upgrade node through Homebrew using the following command:
+  ```sh
+    $ brew upgrade node
+  ```
+  #### Install your NPM Package with this line:
+  ```sh
+  $ npm install
+  ```
+  #### To view this application in a Web Browser:
+  This will have the application running in a dev server. The application will automatically reload in `http://localhost:4200/`.
+  ```sh
+  $ ng serve --open
   ```
 
-  #### Working with the project in Node:
-  To build and bundle the project in webpack run the following:
-  ```sh
-    $ npm run build
-  ```
-  To run the local test server:
-  ```sh
-    $ npm run start
-  ```
-  To run test in `Karma`:
-  ```sh
-    $ npm test
-  ```
-    #### Install Copy Webpack Plugin
-    ```sh
-    npm i -D copy-webpack-plugin
-    ```
+
 
 ## <span style="color:#74875d;">Known Bugs</span>
 
@@ -81,9 +78,9 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 | :------------ | :------------- |
 | Webpack | CSS (Bootstrap) |
 | Eslint | JavaScript (JQuery) |
-| Karma & Jasmine | Popper
-| Babel-loader |  |
-| CSS-loader & Style-loader | | |
+| TypeScript 2.1.4 | Popper
+| Angular AngularCli@1.6.5 | CSS-loader & Style-loader |
+
 
 
 
@@ -109,27 +106,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
