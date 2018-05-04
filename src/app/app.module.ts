@@ -7,7 +7,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ArticleComponent } from './article/article.component';
 import { EmailComponent } from './email/email.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Kinfolk } from './models/object.models';
 
 @Component({
   selector: 'app-root',
