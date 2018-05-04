@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/c862d8098ce50a7dc042ebbb9b94bbc8?family=TwCenW01-Medium);
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -202,4 +204,45 @@ h1.c-item__title {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*///article images style */
+.c-item--vertical .c-item__image {
+  margin-bottom: 7px;
+}
+
+.c-item__image {
+  /*background-color: #F2F2F2;*/
+  position: relative;
+}
+
+figure {
+  margin: 0;
+}
+
+.c-item--vertical .c-item__list {
+  margin-bottom: 15px;
+}
+
+.c-item__list {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  font-family: "Tw Cen W01 Light", sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.c-item--vertical .c-item__title, .c-item--vertical ul.products .product .price, ul.products .product .c-item--vertical .price {
+  font-size: 19px;
+  font-size: 1.1875rem;
+}
+
+.c-item__title, ul.products .product .price {
+  font-size: 23px;
+  font-size: 1.4375rem;
+  letter-spacing: 0.025em;
+  line-height: 1.2;
+  font-family: "Tw Cen W01 Medium", sans-serif;
+  margin-bottom: 20px;
 }
