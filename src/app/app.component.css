@@ -76,7 +76,7 @@ div {
 
 .l-header__icons {
   float: right;
-  margin: 0;
+  margin-top: -20px;
   padding: 0;
   list-style: none;
 }
@@ -191,9 +191,14 @@ html {
   margin-right: auto;
 }
 
-.l-header__search svg {
-  width: 13px;
-  height: 13px;
+.icon-search {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.l-header__subscribe {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 40em)
@@ -203,4 +208,4 @@ html {
 
 a {
   color: inherit;
-} 
+}
