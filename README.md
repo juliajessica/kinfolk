@@ -11,7 +11,7 @@
 
 ## <span style="color:#74875d;">Description</span>
 
-_This single page webpage application is created to practice coding with modern JavaScript MVC's. The goal for this project was to mock the basic functionality of the <a href="https://kinfolk.com/">Kinfolk</a> using TypeScript and Angular._
+_This single page webpage application is created to practice coding with modern JavaScript MVC's. The goal for this project was to mock the basic functionality of the <a href="https://kinfolk.com/shop/">Kinfolk</a> using TypeScript and Angular._
 
 _This project uses TypeScript and Angular to create  components and compile code for faster loading, and easier functionality. I use a base model that holds and object and use event, property, and two-way data binding to pass my functionality throughout the application. The nestled child components each send data to the parent component filtering data down and action up which is an Angular technique used to pass along responsibility for variables, classes, events and even objects._
 
@@ -66,8 +66,6 @@ _This project uses TypeScript and Angular to create  components and compile code
   $ ng serve --open
   ```
 
-
-
 ## <span style="color:#74875d;">Known Bugs</span>
 
 _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@gmail.com) if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments of my work. :+1:_
@@ -83,13 +81,19 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 
 
-
-
 ### <span style="color:#74875d;">Specs</span>
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| The program will  | Input: "" | Output:  |
+| The program will have an object containing three properties: Image, Title, Author, Tags  | Input: "" | Output: "" |
+| The program will have option for user to view a full description of the article | Input: "click event" | Output: "full description of item" |
+| The application will allow the user to subscribe | Input: "email is entered" | Output: "thank you!" |
 
+Notes:
+model - houses the object
+app component - root component
+homepage - component
+article - component: allows the user to view the details of the article
+email - component: allows the user to enter email to subscribe
 
 
 ### <span style="color:#74875d;">License</span>
