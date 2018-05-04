@@ -3,6 +3,88 @@
   height:auto;
 }
 
+.imageHolder{
+  top:0px;
+  visibility: hidden;
+  position: fixed;
+  overflow: hidden;
+  height: 480px;
+  width: 1557px;
+}
+
+.img-holder-img{
+  background-image:url("https://kinfolk.com/wp-content/uploads/2016/08/Screen-Shot-2018-04-05-at-11.57.30-AM-2000x1250.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  visibility: hidden;
+  max-width: none;
+  height: 876px;
+  width: 1557px;
+}
+
+.row {
+  max-width: 1560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.l-header {
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  z-index: 1000;
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  font-family: "Tw Cen W01 Light", sans-serif;
+  font-size: 0.9375rem;
+}
+
 body {
-  background-color: yellow;
+  font-family: Feijoa, serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  overflow-x: hidden;
+  color: rgb(26, 26, 26);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: sans-serif;
+  text-size-adjust: 100%;
+}
+
+.row::before, .row::after {
+  content: " ";
+  display: table;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+.row::after {
+  clear: both;
+}
+
+.row::before, .row::after {
+  content: " ";
+  display: table;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
 }
