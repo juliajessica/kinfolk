@@ -29,6 +29,34 @@
   margin-right: auto;
 }
 
+a:hover, a:focus {
+  text-decoration: none;
+  outline: 0px;
+}
+
+.m-advert__link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 5;
+}
+a {
+  color: rgb(26, 26, 26);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*.m-advert__inner {
+  text-align: center;
+  max-width: 300px;
+  margin: 0px auto;
+}*/
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -41,7 +69,6 @@ div {
   background-color: rgb(255, 255, 255);
   padding-top: 20px;
   z-index: 1000;
-  text-transform: uppercase;
   letter-spacing: 0.115em;
   font-family: "Tw Cen W01 Light", sans-serif;
   font-size: 0.9375rem;
