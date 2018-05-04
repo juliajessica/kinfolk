@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Kinfolk } from './models/object.models';
+import { Article } from '../models/object.model';
 
 @Component({
   selector: 'app-homepage',
@@ -7,7 +7,7 @@ import { Kinfolk } from './models/object.models';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  @Input() childArticleList: Article[];
+  // @Input() childArticleList: Article[];
   constructor() { }
 
   ngOnInit() {

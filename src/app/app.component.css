@@ -1,62 +1,3 @@
-/*#kinfolkLogo {
-  width:200px;
-  height:auto;
-}
-
-.imageHolder{
-  top:0px;
-  visibility: hidden;
-  position: fixed;
-  overflow: hidden;
-  height: 480px;
-  width: 1557px;
-}
-
-.img-holder-img{
-  background-image:url("https://kinfolk.com/wp-content/uploads/2016/08/Screen-Shot-2018-04-05-at-11.57.30-AM-2000x1250.png");
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  visibility: hidden;
-  max-width: none;
-  height: 876px;
-  width: 1557px;
-}
-
-.row {
-  max-width: 1560px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-a:hover, a:focus {
-  text-decoration: none;
-  outline: 0px;
-}
-
-.m-advert__link {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  z-index: 5;
-}
-a {
-  color: rgb(26, 26, 26);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/*.m-advert__inner {
-  text-align: center;
-  max-width: 300px;
-  margin: 0px auto;
-}*/
-
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -226,11 +167,6 @@ a {
   margin-bottom: 15px;
 }
 
-.c-item__title, .c-item--xl .c-item__content p {
-  margin-bottom: 15px;
-  text-align: center;
-}
-
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Domaine", serif;
   font-style: normal;
@@ -250,6 +186,20 @@ h1.c-item__title {
 
 #firstArticleImg {
   display: block;
-   margin-left: auto;
-   margin-right: auto
+  margin-left: auto;
+  margin-right: auto
+}
+
+.c-item__link {
+  font-family: "Tw Cen W01 Medium", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #999999;
+  letter-spacing: 0.1em;
+}
+
+.c-item--xl .c-item__content {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
