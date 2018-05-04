@@ -209,3 +209,47 @@ html {
 a {
   color: inherit;
 }
+/*//first article*/
+.c-item__content p {
+  margin-bottom: 0;
+  line-height: 1.7;
+  font-family: "Feijoa", serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  color: #4D4D4D;
+}
+
+.c-item--xl .c-item__title, .c-item--xl ul.products .product .price, ul.products .product .c-item--xl .price {
+  font-family: "Domaine", serif;
+  font-size: 3.9375rem;
+  letter-spacing: 0em;
+  margin-bottom: 15px;
+}
+
+.c-item__title, .c-item--xl .c-item__content p {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: "Domaine", serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1, .h1 {
+  font-size: 10px;
+  margin: 0 0 25px;
+  display: block;
+}
+
+
+h1.c-item__title {
+  font-size: 30px;
+}
+
+#firstArticleImg {
+  display: block;
+   margin-left: auto;
+   margin-right: auto
+}
