@@ -19,4 +19,11 @@ export class AppComponent {
     new Article('Jamieson Webster', 'A conversation with a New York psychoanalyst.', 'https://kinfolk.com/wp-content/uploads/2018/01/Jamieson_Webster-819x1024.jpg'),
     new Article('Red Heads', 'Red hair don’t care: Celebrating the beauty of the ginger gene.', 'https://kinfolk.com/wp-content/uploads/2018/01/Red_Heads_01-683x1024.jpg')
   ];
+
+  selectedArticle = null;
+
+  viewArticle(clickedTitle){
+    console.log(clickedTitle.description);
+    this.selectedArticle = clickedTitle;
+  }
 }

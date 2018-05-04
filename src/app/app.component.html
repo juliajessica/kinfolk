@@ -54,35 +54,13 @@
                 </article>
               </div>
               <!-- ///array placed here -->
-              <!-- <app-homepage></app-homepage> -->
+              <app-homepage [childArticleList]="beers" (clickFullArticle)="viewArticle($event)"></app-homepage>
 
               <!-- <ul>
                 <li *ngFor="let singleArticle of articles">{{singleArticle.title}}, {{singleArticle.description}}, <img src={{singleArticle.image}}></li>
               </ul> -->
 
-<div class="columns small-12 medium-12 large-6 [ match--parent ]">
-  <div class="row">
-    <div class="columns small-12 medium-small-6 medium-4 large-6 xxlarge-4 [ border--left--medium match ]">
-      <article class="c-item c-item--vertical" *ngFor="let singleArticle of articles">
-        <figure class="c-item__image">
-          <img src={{singleArticle.image}} data-src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_StudioDavidThulstrup_009-350x525.jpg"  class="attachment-small size-small lazy lazyload" alt="Kinfolk images">
-        </figure>
-        <div class="c-item__content">
-          <div class="c-item__list">
-            <!-- <ul>
-              <li><a href="https://kinfolk.com/stories/design/">Design</a></li>
-              <li><a href="https://kinfolk.com/stories/interiors/">Interiors</a></li>
-            </ul> -->
-          </div>
-          <h1 class="c-item__title">
-            <a href="https://kinfolk.com/studio-david-thulstrup/">{{singleArticle.title}}</a>
-          </h1>
-          <p>{{singleArticle.description}}</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
+
 
 
 

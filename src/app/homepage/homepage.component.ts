@@ -7,7 +7,8 @@ import { Article } from '../models/object.model';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  // @Input() childArticleList: Article[];
+  @Input() childArticleList: Article[];
+  @Output() clickFullArticle = new EventEmitter();
   constructor() { }
 
   ngOnInit() {
