@@ -1,4 +1,4 @@
-#kinfolkLogo {
+/*#kinfolkLogo {
   width:200px;
   height:auto;
 }
@@ -114,4 +114,43 @@ html {
 
 *, ::before, ::after {
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 40em)
+.l-header__burger {
+  margin-top: 5px;
+}
+
+.l-header__burger {
+  cursor: pointer;
+  height: 13px;
+  float: left;
+}
+
+.l-header {
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  font-family: "Tw Cen W01 Light", sans-serif;
+  font-size: 0.9375rem;
+}
+
+.l-header__burger span, .l-header__burger span:before, .l-header__burger span:after {
+  height: 3px;
+  width: 25px;
+  background-color: #000;
+  display: block;
+  content: "";
+  position: relative;
+}
+
+.l-header__burger {
+  cursor: pointer;
+  height: 13px;
+  float: left;
+}
+.l-header__burger span:before {
+    top: -6px;
+}
+.l-header__burger span:after {
+    top: 3px;
 }
