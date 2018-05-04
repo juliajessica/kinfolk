@@ -176,14 +176,31 @@ html {
 .l-header__burger {
   cursor: pointer;
 }
+
 .l-header__burger span:before {
-    top: -6px;
+  top: -6px;
 }
+
 .l-header__burger span:after {
-    top: 3px;
+  top: 3px;
 }
+
 #kinfolk-logo-top {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.l-header__search svg {
+  width: 13px;
+  height: 13px;
+}
+
+@media screen and (min-width: 40em)
+  .l-header__search svg {
+  vertical-align: text-bottom;
+}
+
+a {
+  color: inherit;
+} 
