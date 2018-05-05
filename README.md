@@ -48,7 +48,7 @@ _This project uses TypeScript and Angular to create  components and compile code
   ```sh   
     $ npm install typescript -g
    ```
-  #### TypeScript Installation
+  #### Angular Installation
   If you do not have `Angular` installed globally, then run the following:
   ```sh
     $ npm install -g @angular/cli@1.6.5
