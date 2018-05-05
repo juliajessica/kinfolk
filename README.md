@@ -88,13 +88,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 | The program will have option for user to view a full description of the article | Input: "click event" | Output: "full description of item" |
 | The application will allow the user to subscribe | Input: "email is entered" | Output: "thank you!" |
 
-Notes:
-model - houses the object
-app component - root component
-homepage - component
-article - component: allows the user to view the details of the article
-email - component: allows the user to enter email to subscribe
-
+<strong>Check out the notes.md file for more details on my planning.</strong>
 
 ### <span style="color:#74875d;">License</span>
 
