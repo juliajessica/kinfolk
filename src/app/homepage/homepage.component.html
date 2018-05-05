@@ -51,12 +51,11 @@
                   </div>
                 </article>
               </div>
-              <div class="vl-1">
-              </div>
+              <!-- <div class="vl-1">
+              </div> -->
 
 <!--
 ////array -->
-
 <div class="col-sm-12 col-md-6 col-lg-6 [ match--parent ]" id="right-col-articles">
   <div class="row">
     <div class="col-sm-12 col-md-6 col-lg-6 [ border--left--medium match ]">
@@ -71,7 +70,7 @@
               <li><a href="https://kinfolk.com/stories/interiors/">Interiors</a></li>
             </ul> -->
           </div>
-          <h1 class="c-item__title" (click)="editArticleClicked(singleArticle)">
+          <h1 class="c-item__title" (click)="viewClickedArticle(singleArticle)">
             {{singleArticle.title}}
           </h1>
           <p>{{singleArticle.description}}</p>
@@ -80,9 +79,5 @@
       </div>
     </div>
   </div>
-  <div class="vl">
-  </div>
-
-<!-- <ul>
-  <li *ngFor="let singleArticle of childArticleList">{{singleArticle.title}}, {{singleArticle.description}}, {{singleArticle.image}}</li>
-</ul> -->
+  <!-- <div class="vl">
+  </div> -->
