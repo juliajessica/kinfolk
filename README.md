@@ -48,7 +48,7 @@ _This project uses TypeScript and Angular to create  components and compile code
   ```sh   
     $ npm install typescript -g
    ```
-  #### TypeScript Installation
+  #### Angular Installation
   If you do not have `Angular` installed globally, then run the following:
   ```sh
     $ npm install -g @angular/cli@1.6.5
@@ -85,17 +85,10 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 ### <span style="color:#74875d;">Specs</span>
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| The program will have an object containing three properties: Image, Title, Author, Tags  | Input: "" | Output: "" |
 | The program will have option for user to view a full description of the article | Input: "click event" | Output: "full description of item" |
 | The application will allow the user to subscribe | Input: "email is entered" | Output: "thank you!" |
 
-Notes:
-model - houses the object
-app component - root component
-homepage - component
-article - component: allows the user to view the details of the article
-email - component: allows the user to enter email to subscribe
-
+<strong>Check out the notes.md file for more details on my planning.</strong>
 
 ### <span style="color:#74875d;">License</span>
 
