@@ -85,7 +85,6 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 ### <span style="color:#74875d;">Specs</span>
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| The program will have an object containing three properties: Image, Title, Author, Tags  | Input: "" | Output: "" |
 | The program will have option for user to view a full description of the article | Input: "click event" | Output: "full description of item" |
 | The application will allow the user to subscribe | Input: "email is entered" | Output: "thank you!" |
 
