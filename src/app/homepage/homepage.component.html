@@ -1,8 +1,7 @@
 <link href="//db.onlinewebfonts.com/c/c862d8098ce50a7dc042ebbb9b94bbc8?family=TwCenW01-Medium" rel="stylesheet" type="text/css"/>
 <body class="home page page-id-2 page-template page-template-templates page-template-home-page page-template-templateshome-page-php">
-  <div clas="well">
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-sm-12 col-md-12 col-lg-12">
       <div class="relative">
 			  <a href="https://kinfolk.com/shop/premium-magazine-subscription/" target="_blank" class="m-advert__link"></a>
 				<div class="m-advert__image mobile desktop">
@@ -52,6 +51,8 @@
                   </div>
                 </article>
               </div>
+              <div class="vl-1">
+              </div>
 
 <!--
 ////array -->
@@ -61,7 +62,7 @@
     <div class="col-sm-12 col-md-6 col-lg-6 [ border--left--medium match ]">
       <article class="c-item c-item--vertical" *ngFor="let singleArticle of articles">
         <figure class="c-item__image">
-          <img src={{singleArticle.image}} data-src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_StudioDavidThulstrup_009-350x525.jpg"  class="attachment-small size-small lazy lazyload" alt="Kinfolk images">
+          <img src={{singleArticle.image}} data-src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_StudioDavidThulstrup_009-350x525.jpg"  class="attachment-small size-small lazy lazyload" alt="Kinfolk images" id="resize-img">
         </figure>
         <div class="c-item__content">
           <div class="c-item__list">
@@ -78,6 +79,8 @@
         </article>
       </div>
     </div>
+  </div>
+  <div class="vl">
   </div>
 
 <!-- <ul>
