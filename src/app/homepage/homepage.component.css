@@ -246,3 +246,24 @@ figure {
   font-family: "Tw Cen W01 Medium", sans-serif;
   margin-bottom: 20px;
 }
+
+#left-side-article {
+  position: absolute;
+  display: inline-block;
+}
+
+#right-col-articles {
+  float: right;
+}
+
+img {
+  height: 500px;
+  width: auto;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:20px;
+  width:140.72px;
+}

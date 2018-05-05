@@ -2,7 +2,7 @@
 <body class="home page page-id-2 page-template page-template-templates page-template-home-page page-template-templateshome-page-php">
   <div clas="well">
 	<div class="row">
-		<div class="columns small-12">
+		<div class="col-sm-12">
       <div class="relative">
 			  <a href="https://kinfolk.com/shop/premium-magazine-subscription/" target="_blank" class="m-advert__link"></a>
 				<div class="m-advert__image mobile desktop">
@@ -14,13 +14,13 @@
   <header class="l-header [ push ]">
   	<div class="container">
   		<div class="row">
-  			<div class="columns small-12">
+  			<div class="col-sm-12 col-md-12 col-lg-12">
   				<div class="l-header__inner">
   					<div class="l-header__burger [ menu-btn ]" data-pushy-dir="left">
               <span></span>
 						</div>
             <div itemscope itemtype="http://schema.org/Organization" class="l-header__logo">
-              <a itemprop="url" href="https://kinfolk.com/"><img id="kinfolk-logo-top" itemprop="logo" src="https://kinfolk.com/wp-content/themes/kinfolk2016/assets/img/logo.svg" alt="Kinfolk" height="20px" width="140.72px"/></a>
+              <a itemprop="url" href="https://kinfolk.com/"><img id="kinfolk-logo-top" itemprop="logo" src="https://kinfolk.com/wp-content/themes/kinfolk2016/assets/img/logo.svg" alt="Kinfolk" id="logo"/></a>
             </div>
             <ul class="l-header__icons">
               <li><a class="l-header__cart hidden" href="https://kinfolk.com/cart/"><svg viewBox="0 0 100 100" role="presentation" class="mini-cart-icon icon- (add an extra - here)cart">:<use xlink:href="#cart"></use></svg></a></li>
@@ -40,8 +40,8 @@
       	<main class="l-main">
           <div class="module m-latest-stories">
             <div class="row">
-    					<div class="columns small-12 medium-offset-1 medium-10 large-offset-0 large-6 [ match--parent ]">
-    					  <article class="c-item c-item--xl [ js-sticky ]">
+    					<div class="col-sm-12 col-md-6 col-lg-6 [ match--parent ]">
+    					  <article class="c-item c-item--xl [ js-sticky ]" id="left-side-article">
     					    <figure class="c-item__image">
     					      <a href="https://kinfolk.com/paris-redirect/"><img src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_ParisCityGuide_HotelPanache_002-700x700.jpg" id="firstArticleImg"></a>
     					    </figure>
@@ -56,9 +56,9 @@
 <!--
 ////array -->
 
-<div class="columns small-12 medium-12 large-6 [ match--parent ]">
+<div class="col-sm-12 col-md-6 col-lg-6 [ match--parent ]" id="right-col-articles">
   <div class="row">
-    <div class="columns small-12 medium-small-6 medium-4 large-6 xxlarge-4 [ border--left--medium match ]">
+    <div class="col-sm-12 col-md-6 col-lg-6 [ border--left--medium match ]">
       <article class="c-item c-item--vertical" *ngFor="let singleArticle of articles">
         <figure class="c-item__image">
           <img src={{singleArticle.image}} data-src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_StudioDavidThulstrup_009-350x525.jpg"  class="attachment-small size-small lazy lazyload" alt="Kinfolk images">
