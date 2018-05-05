@@ -54,11 +54,9 @@
                 </article>
               </div>
               <!-- ///array placed here -->
-              <app-homepage [childArticleList]="beers" (clickFullArticle)="viewArticle($event)"></app-homepage>
+              <!-- <app-homepage [childArticleList]="beers" (clickFullArticle)="viewArticle($event)"></app-homepage> -->
+              <app-homepage (clickFullArticle)="viewArticle($event)"></app-homepage>
 
-              <!-- <ul>
-                <li *ngFor="let singleArticle of articles">{{singleArticle.title}}, {{singleArticle.description}}, <img src={{singleArticle.image}}></li>
-              </ul> -->
 
 
 
