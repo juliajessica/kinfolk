@@ -12,7 +12,7 @@ export class HomepageComponent implements OnInit {
   @Output() clickFullArticle = new EventEmitter();
 
   viewClickedArticle(readFullArticle: Article) {
-  console.log(beerToEdit.brandName);
+  console.log(readFullArticle.description);
   this.clickFullArticle.emit(readFullArticle);
 }
 
