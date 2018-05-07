@@ -25,4 +25,9 @@ export class AppComponent {
     console.log(clickedTitle.description);
     this.selectedArticle = clickedTitle;
   }
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 }
