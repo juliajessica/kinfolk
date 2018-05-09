@@ -99,14 +99,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height:20px;
-  width:140.72px;
+  height: 20px;
+  width: 140.72px;
 }
 
 a {
   color: inherit;
 }
 
+
+/*///bootstrap navbar */
 .sidenav {
   height: 100%;
   width: 0;
@@ -145,3 +147,398 @@ a {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/*
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*left side navbar */
+
+/*.c-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1001;
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 40em) .c-overlay__close {
+  top: 35px;
+  right: 65px;
+}
+
+.c-overlay__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  /* box-sizing: border-box; */
+/*}*/
+
+/*//size of the navbar  ^^*/
+div {
+  display: block;
+}
+
+/*body {
+  font-family: "Feijoa", serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  overflow-x: hidden;
+  color: #1A1A1A;
+}*/
+/*
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.align--center {
+  text-align: center;
+}*/
+/*
+.table__cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.c-overlay form {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.c-overlay .screen-reader-text {
+  display: none;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.c-overlay input[type="text"] {
+  border: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #D17D74;
+  font-family: "Tw Cen W01 Medium", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.105em;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+form input[type=text] {
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #E1E0E1;
+  outline: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input {
+  line-height: normal;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  -webkit-margin-before: 1.67em;
+  -webkit-margin-after: 1.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.c-overlay .c-list {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.c-list--large {
+  text-align: center;
+}
+
+.c-list {
+  padding: 0;
+  list-style: none;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+user agent stylesheet ul, menu, dir {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.c-list--large a {
+  text-decoration: none;
+  position: relative;
+}
+
+a {
+  color: #1A1A1A;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+user agent stylesheet a:-webkit-any-link {
+  cursor: pointer;
+}
+
+element.style {
+  visibility: visible;
+}
+
+.pushy-open-left .pushy-left {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.pushy-open-left .pushy-left {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.pushy.pushy-left {
+  left: 0;
+}*/
+
+/*#container, .pushy, .push {
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  transition: transform 400ms cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}*/
+
+/*.pushy-left {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0);
+}
+
+.pushy {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  overflow: auto;
+  /*visibility: hidden;*/
+/*}*/
+
+/*@media screen and (min-width: 40em) .l-nav {
+  padding: 35px;
+}
+
+.l-nav {
+  font-family: "Tw Cen W01 Light", sans-serif;
+  background-color: #fff;
+  font-size: 0.9375rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}*/
+
+/*nav {
+  display: block;
+}*/
+
+/*.pushy-open-left .site-overlay, .pushy-open-right .site-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: fade 500ms;
+  animation: fade 500ms;
+}
+
+.l-nav .site-close {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.site-close svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+html|*>svg {
+  transform-origin: 50% 50% 0px;
+}
+
+user agent stylesheet * {
+  transform-origin: 0px 0px 0px;
+}*/
+
+/*.l-nav .site-close {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.site-close svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+  overflow: hidden;
+}
+
+user agent stylesheet html|*>svg {
+  transform-origin: 50% 50% 0px;
+}
+
+user agent stylesheet * {
+  transform-origin: 0px 0px 0px;
+}*/
+
+/*.l-nav .site-close {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.l-nav ul {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  border-top: 1px solid #E1E0E1;
+}
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.l-nav {
+  background-color: #fff;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.l-nav ul {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  border-top: 1px solid #E1E0E1;
+}
+
+/*social icons */
+
+/*.l-nav .c-social {
+  padding-top: 25px;
+}
+
+.l-nav ul {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  border-top: 1px solid #E1E0E1;
+}
+
+.c-social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pushy__bottom {
+  position: absolute;
+  bottom: 20px;
+}*/
