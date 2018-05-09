@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from '@angularfire2/database';
-import { Router } from '@angular/router';
-// import { Article } from '../models/object.model';
 import { ArticleService } from '../article.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-marketplace',
@@ -12,6 +11,7 @@ import { ArticleService } from '../article.service';
 })
 
 export class HomepageComponent implements OnInit {
+  articles: FirebaseListObservable<any[]>;
 
   constructor(private router: Router,
               private articleService: ArticleService) { }
@@ -20,9 +20,9 @@ export class HomepageComponent implements OnInit {
     this.articles = this.articleService.getArticle();
   }
 
-  viewClickedArticle(readFullArticle: Article) {
+  viewClickedArticle(readFullArticle) {
   // console.log(readFullArticle.description);
-  this.router.navigate('article', readFullArticle.id);
+  this.router.navigate(['article', readFullArticle.$key]);
  };
 
 }
