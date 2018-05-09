@@ -4,9 +4,9 @@ import { ArticleService } from '../article.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-marketplace',
-  templateUrl: './marketplace.component.html',
-  styleUrls: ['./marketplace.component.css'],
+  selector: 'app-homepage',
+  templateUrl: './homepage.component.html',
+  styleUrls: ['./homepage.component.css'],
   providers: [ArticleService]
 })
 
