@@ -1,21 +1,20 @@
 import { Injectable } from '@angular/core';
 import { Article } from './models/object.model';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class ArticleService {
+  articles: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+    this.articles = database.list('allArticles');
+  }
 
   getArticle() {
-    return Article;
+    return this.articles;
   }
-  getArticleById(articleId: number){
-    for (var i = 0; i <= Article.length - 1; i++) {
-      if (Article[i].id === articleId) {
-        return Article[i];
-      }
-    }
+  getArticleById(ArticleId: string){
+    return this.database.object('allArticles/' + ArticleId);
   }
-
 
 }
