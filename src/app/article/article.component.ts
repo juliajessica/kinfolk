@@ -11,8 +11,8 @@ import { ArticleService } from '../article.service';
   providers: [ArticleService]
 })
 export class ArticleComponent implements OnInit {
-  articleId: number;
-  displayArticle: Article;
+  articleId: string;
+  displayArticle;
 
   constructor(private route: ActivatedRoute,
               private location: Location,
@@ -20,7 +20,7 @@ export class ArticleComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.articleId = parseInt(urlParameters['id']);
+      this.articleId = urlParameters['id'];
     });
     this.displayArticle = this.articleService.getArticleById(this.articleId);
   }

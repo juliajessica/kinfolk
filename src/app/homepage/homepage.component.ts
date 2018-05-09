@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Article } from '../models/object.model';
+import { FirebaseListObservable } from '@angularfire2/database';
 import { Router } from '@angular/router';
+// import { Article } from '../models/object.model';
 import { ArticleService } from '../article.service';
 
 @Component({
