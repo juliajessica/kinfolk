@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Article } from '../models/object.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-homepage',
@@ -11,7 +12,7 @@ export class HomepageComponent implements OnInit {
   @Output() clickFullArticle = new EventEmitter();
 
   viewClickedArticle(readFullArticle: Article) {
-  console.log(readFullArticle.description);
+  // console.log(readFullArticle.description);
   this.clickFullArticle.emit(readFullArticle);
 }
 

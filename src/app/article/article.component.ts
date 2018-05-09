@@ -7,8 +7,10 @@ import { Article } from '../models/object.model';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
-  @Input() childSelectedArticle: Article;
+  // @Input() childSelectedArticle: Article;
   @Output() clickedLogo = new EventEmitter();
+
+  childSelectedArticle = null;
 
   redirectToHomepage(){
     this.clickedLogo.emit();
