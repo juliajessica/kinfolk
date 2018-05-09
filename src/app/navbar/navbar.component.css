@@ -1,3 +1,12 @@
+@font-face {font-family: "TwCenW01-LightItalic";
+    src: url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.eot");
+    src: url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.svg#TwCenW01-LightItalic") format("svg");
+}
+
 .l-header {
   text-transform: uppercase;
   background-color: #fff;
@@ -6,20 +15,25 @@
   z-index: 1000;
   letter-spacing: 0.115em;
   font-family: "Tw Cen W01 Light", sans-serif;
-  /*font-size: 0.9375rem;*/
   font-size: 15px;
 }
 
 .l-header__icons {
+  display: inline-block;
   float: right;
-  margin-top: -20px;
-  padding: 0;
+  margin-top: -50px;
+  padding-left: 100px;
   list-style: none;
 }
 
-.l-header__subscribe {
+.l-header__subscribe, .l-header__search {
   display: inline-block;
   vertical-align: text-top;
+}
+
+.l-header__search {
+  padding-left: 10px;
+  margin-left: 20px;
 }
 
 .l-header a {
@@ -49,11 +63,10 @@
   display: inline-block;
 }
 
-.l-header__subscribe {
+/*.l-header__subscribe {
   display: inline-block;
   vertical-align: text-top;
-  margin-bottom: 20px;
-}
+}*/
 
 .l-header a {
   text-decoration: none;
@@ -79,10 +92,6 @@
   height: 30px;
 }
 
-.l-header__subscribe {
-  margin-bottom: 20px;
-}
-
 #kinfolk-logo-top {
   display: block;
   margin-left: auto;
@@ -98,7 +107,7 @@
 }
 
 a {
-  color: inherit;
+  color: #1A1A1A;
 }
 
 
@@ -132,7 +141,7 @@ a {
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #4f4f4f;
 }
 
 .sidenav .closebtn {
@@ -178,7 +187,6 @@ svg {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
 }
 
-
 #social-icon {
   width: 17.9px;
   height: 17.9px;
@@ -194,6 +202,7 @@ svg {
   padding: 0;
   list-style: none;
   width: 100%;
+  display: inline;
 }
 
 /*a:hover {
