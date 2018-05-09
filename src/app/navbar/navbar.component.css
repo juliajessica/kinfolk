@@ -185,6 +185,7 @@ svg {
   fill: #BCBCBC;
   -webkit-transition: ease 250ms fill;
   transition: ease 250ms fill;
+  color: #BCBCBC;
 }
 
 .c-social {
@@ -192,8 +193,12 @@ svg {
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
 }
 
+/*a:hover {
+  background-color: #4f4f4f;
+}*/
 
 /*left side navbar */
 
