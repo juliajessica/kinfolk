@@ -1,6 +1,5 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { routing } from './app.routing';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { ArticleComponent } from './article/article.component';
