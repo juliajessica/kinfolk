@@ -8,10 +8,10 @@ import { Article } from '../models/object.model';
 })
 export class ArticleComponent implements OnInit {
   @Input() childSelectedArticle: Article;
-  @Output() clickedDone = new EventEmitter();
+  @Output() clickedLogo = new EventEmitter();
 
-  finishedReading(){
-    this.clickedDone.emit();
+  redirectToHomepage(){
+    this.clickedLogo.emit();
   }
 
   constructor() { }

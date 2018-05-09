@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Article } from './models/object.model';
 import { HomepageComponent } from './homepage/homepage.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
