@@ -1,0 +1,115 @@
+.c-newsletter__label {
+  letter-spacing: 0.115em;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.c-newsletter {
+  font-family: "Tw Cen W01 Light", sans-serif;
+  letter-spacing: 0.115em;
+}
+
+.m-connect {
+  text-align: center;
+}
+
+.c-newsletter input[type=email] {
+  letter-spacing: 0.115em;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+form input[type=text], form input[type=email], form input[type=phone], form input[type=password], form input[type=number], form input[type=tel], form input[type=search], form textarea {
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #E1E0E1;
+  outline: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c-newsletter__input {
+  max-width: 220px;
+  height: 50px;
+  margin-right: 50px;
+}
+
+button, input, select, textarea {
+  /* font-family: inherit; */
+  font-size: 100%;
+  margin: 0;
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+input, textarea, select, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+.c-newsletter input[type=submit] {
+  background-size: 8px;
+  padding: 0;
+  border: 1px solid #E1E0E1;
+  border-left: none;
+}
+
+form input[type=submit], .woocommerce-cart .cart-collaterals button[type="submit"], .woocommerce-cart .cart-collaterals .checkout-button {
+  border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #4d4d4d;
+  background: #4d4d4d;
+  color: #fff;
+  padding: 15px 50px;
+  text-decoration: none;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  font-family: "Tw Cen W01 Medium", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.c-newsletter__submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+}

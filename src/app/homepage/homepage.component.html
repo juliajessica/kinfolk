@@ -1,21 +1,19 @@
 <!-- <link href="//db.onlinewebfonts.com/c/c862d8098ce50a7dc042ebbb9b94bbc8?family=TwCenW01-Medium" rel="stylesheet" type="text/css"/> -->
-<body class="home page page-id-2 page-template page-template-templates page-template-home-page page-template-templateshome-page-php">
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
-			<div class="relative">
+<div class="row">
+	<div class="col-sm-6">
+		<div class="relative">
 				<a href="https://kinfolk.com/shop/premium-magazine-subscription/" target="_blank" class="m-advert__link"></a>
 				<div class="m-advert__image mobile desktop">
 					<img width="1600" height="auto" src="https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-50x16.jpg" class="attachment-full size-full lazy lazyloaded" alt="K27_Premium_Banner" data-sizes="(max-width: 2000px) 100vw, 2000px" data-srcset="https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-2000x650.jpg 2000w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-300x98.jpg 300w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-768x250.jpg 768w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-1024x333.jpg 1024w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-50x16.jpg 50w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-350x114.jpg 350w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-1600x520.jpg 1600w"
 					  data-noscript="https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-2000x650.jpg" sizes="(max-width: 2000px) 100vw, 2000px" srcset="https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-2000x650.jpg 2000w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-300x98.jpg 300w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-768x250.jpg 768w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-1024x333.jpg 1024w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-50x16.jpg 50w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-350x114.jpg 350w, https://kinfolk.com/wp-content/uploads/2016/08/K27_Premium_Banner-1600x520.jpg 1600w">
 				</div>
 			</div>
-		</div>
 	</div>
 	<div class="container" id="container">
 		<main class="l-main">
 			<div class="module m-latest-stories">
 				<div class="row">
-					<div class="col-sm-12 col-md-6 col-lg-6 [ match--parent ]">
+					<div class="col-sm-6 col [ match--parent ]">
 						<article class="c-item c-item--xl [ js-sticky ]" id="left-side-article">
 							<figure class="c-item__image">
 								<a href="https://kinfolk.com/paris-redirect/"><img src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_ParisCityGuide_HotelPanache_002-700x700.jpg" id="firstArticleImg"></a>
@@ -31,11 +29,9 @@
 			</div>
 		</main>
 	</div>
-</body>
-	<!-- //array -->
-<div class="container">
-	<div class="col-sm-12 col-md-6 col-lg-6" id="right-col-articles">
-		<div class="row">
+		<!-- //array -->
+	<div class="container">
+		<div class="col-sm-12 col-md-6 col-lg-6" id="right-col-articles">
 			<div class="col-sm-12 col-md-6 col-lg-6 [ border--left--medium match ]">
 				<article class="c-item c-item--vertical" *ngFor="let singleArticle of articles | async">
 					<figure class="c-item__image">
@@ -44,9 +40,9 @@
 					<div class="c-item__content">
 						<div class="c-item__list">
 							<!-- <ul>
-            <li><a href="https://kinfolk.com/stories/design/">Design</a></li>
-            <li><a href="https://kinfolk.com/stories/interiors/">Interiors</a></li>
-          </ul> -->
+		        <li><a href="https://kinfolk.com/stories/design/">Design</a></li>
+		        <li><a href="https://kinfolk.com/stories/interiors/">Interiors</a></li>
+		      </ul> -->
 						</div>
 						<h1 class="c-item__title" (click)="viewClickedArticle(singleArticle)">{{singleArticle.title}}</h1>
 						<p>{{singleArticle.description}}</p>
@@ -55,5 +51,5 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>	
 <app-email></app-email>
