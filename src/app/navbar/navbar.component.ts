@@ -17,16 +17,6 @@ closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-// displayNav(){
-//   if (){
-//     document.getElementById("display-navBar").innerHTML = "";
-//   }
-// }
-
-// closeNav() {
-//   document.getElementById("mySidenav").style.width = "0";
-// }
-
   ngOnInit() {
   }
 
