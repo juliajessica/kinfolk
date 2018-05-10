@@ -168,16 +168,24 @@ hr {
   width: 75%;
 }
 
-/*.pushy__bottom {
+.pushy__bottom {
   position: absolute;
-  bottom: 20px;
-}*/
+  bottom: -250px;
+  padding-left: 20px;
+}
 
 .c-social {
   margin: 0;
   padding: 0;
   list-style: none;
+  list-style-type: none;
+  overflow: hidden;
 }
+.c-social__network{
+  float: left;
+}
+
+
 
 /*//svg */
 svg {
@@ -205,10 +213,9 @@ svg {
   display: inline;
 }
 
-/*a:hover {
-  background-color: #4f4f4f;
-}*/
-
+.l-nav .c-social {
+  padding-top: 25px;
+}
 /*left side navbar */
 
 /*.c-overlay {
@@ -474,11 +481,10 @@ ul, menu, dir {
   list-style: none;
   border-top: 1px solid #E1E0E1;
 }
-
-.l-nav .c-social {
-  padding-top: 25px;
-}
-
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 .l-nav ul {
   margin: 0;
   padding: 10px 0;
