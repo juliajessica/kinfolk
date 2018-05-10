@@ -1,0 +1,6 @@
+img {
+  height: 700px;
+  wirdth: auto;
+  display: flex;
+  justify-content: center;
+}

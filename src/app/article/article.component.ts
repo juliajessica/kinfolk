@@ -3,6 +3,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Article } from '../models/object.model';
 import { ArticleService } from '../article.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-article',
@@ -24,14 +25,4 @@ export class ArticleComponent implements OnInit {
     });
     this.displayArticle = this.articleService.getArticleById(this.articleId);
   }
-
-  // @Input() childSelectedArticle: Article;
-  // @Output() clickedLogo = new EventEmitter();
-
-  // childSelectedArticle = null;
-
-  // redirectToHomepage(){
-  //   this.clickedLogo.emit();
-  // }
-
 }

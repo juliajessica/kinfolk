@@ -1,4 +1,9 @@
-<h3>{{displayArticle.title}}</h3>
-  <img src={{displayArticle.image}} alt="image of article from kinfolk">
-  <p>{{displayArticle.description}}</p>
-  <!-- //add all of the article contnent into the object as a new property -->
+<div class="container">
+  <body>
+    <h1 class="page__title page__title--padding">{{(displayArticle | async)?.title}}</h1>
+    <img src='{{(displayArticle | async)?.image}}' alt="image of article from kinfolk">
+    <p>{{(displayArticle | async)?.description}}</p>
+    <!-- //add all of the article contnent into the object as a new property -->
+    <hr width="1" size="500">
+  </body>
+</div>
