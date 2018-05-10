@@ -214,3 +214,10 @@ figure {
   width:25%;
   text-align:bottom;
 }
+
+.articles-array {
+  width:75%;
+  position:absolute;
+  left:25%;
+  text-align:center;
+}

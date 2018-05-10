@@ -1,10 +1,10 @@
 @font-face {font-family: "TwCenW01-LightItalic";
-    src: url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.eot");
-    src: url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.svg#TwCenW01-LightItalic") format("svg");
+  src: url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.eot");
+  src: url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/793401edec9265f03a085e6cf31f4b07.svg#TwCenW01-LightItalic") format("svg");
 }
 
 .l-header {
@@ -63,11 +63,6 @@
   display: inline-block;
 }
 
-/*.l-header__subscribe {
-  display: inline-block;
-  vertical-align: text-top;
-}*/
-
 .l-header a {
   text-decoration: none;
 }
@@ -109,7 +104,6 @@
 a {
   color: #1A1A1A;
 }
-
 
 /*///bootstrap navbar */
 .sidenav {
@@ -158,7 +152,6 @@ a {
   border-top: 1px solid #E1E0E1;
 }
 
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -183,16 +176,6 @@ hr {
 }
 .c-social__network{
   float: left;
-}
-
-
-
-/*//svg */
-svg {
-  width: 20px;
-  height: 20px;
-  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.2555, 1);
 }
 
 #social-icon {
