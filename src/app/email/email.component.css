@@ -1,3 +1,7 @@
+.email-form {
+  margin-left: 80px;
+}
+
 .c-newsletter__label {
   letter-spacing: 0.115em;
   text-transform: uppercase;
@@ -63,9 +67,6 @@ input {
   border-style: inset;
   border-color: initial;
   border-image: initial;
-}
-
-input {
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
@@ -74,6 +75,7 @@ input {
   margin: 0em;
   font: 400 11px system-ui;
 }
+
 
 input, textarea, select, button, meter, progress {
   -webkit-writing-mode: horizontal-tb !important;
