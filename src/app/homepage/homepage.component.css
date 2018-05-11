@@ -181,6 +181,7 @@ figure {
   display: flex;
   justify-content: flex-end;
   justify-content: space-between;
+  flex-direction: column;
   /*position: absolute;
   display: inline-block;*/
 }
