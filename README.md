@@ -23,7 +23,7 @@ _This project uses TypeScript and Angular to create  components and compile code
 
 ## <span style="color:#74875d;">User Stories</span>
 
-| Behavior | Input | Output | Status |
+| User Behavior | Input | Output | Status |
 | :-------------     | :------------- | :------------- |  :------------- |
 | Customer wants to view a full description of the article | Input: "click on the article title" | Output: "full description of item" | Complete |
 | User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
@@ -34,17 +34,7 @@ _This project uses TypeScript and Angular to create  components and compile code
 
 | Model | View | Component |
 | :-------------     | :------------- | :------------- |
-| { "allArticles": [{
-  "title": "string",
-  "description": "string",
-  "image": "string",
-  "fullDescription": "string"
-    }]
-  } | Homepage
-      Article Page | Homepage
-         Navbar
-         Article | 
-
+| allArticles: [{<br> title: "string",<br> description: "string",<br> image: "string",<br> fullDescription: "string"<br> }]<br> | Homepage<br> Article Page | Homepage<br> Navbar<br> Article |
 
 
 
