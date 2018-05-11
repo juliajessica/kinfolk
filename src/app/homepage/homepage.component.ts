@@ -23,6 +23,24 @@ export class HomepageComponent implements OnInit {
   viewClickedArticle(readFullArticle) {
   // console.log(readFullArticle.description);
   this.router.navigate(['article', readFullArticle.$key]);
- };
+};
+
+// $(window).scroll(function () {
+//   let winTop = $(this).scrollTop(),
+//     winBottom = winTop + $(this).height(),
+//     left = $('#paris-article'),
+//     leftBottom = left.height();//when the user reached the bottom of '#leftShort' set its position to fixed to prevent it from moving on scroll
+//   if (winBottom >= leftBottom) {
+//     left.css({
+//       'position': 'fixed',
+//       'bottom': '0px'
+//   });
+//   } else {//when the user scrolls back up revert its position to relative
+//     left.css({
+//     'position': 'relative',
+//     'bottom': 'auto'
+//     });
+//   }
+// });
 
 }
