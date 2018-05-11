@@ -72,12 +72,11 @@ _This project uses TypeScript and Angular to create  components and compile code
   * Add multiple albums to the database via JSON import in Firebase Console.
 
 ## <span style="color:#74875d;">Technologies Used</span>
-
-| :------------ | :------------- | :------------- |
+|  |  |
+| :------------- | :------------- |
 | CSS (Bootstrap) | JavaScript (JQuery) |
 | Angular | Node.js |
 | Eslint | API Calls with Firebase |
-
 
 ## <span style="color:#74875d;">Known Bugs</span>
 
