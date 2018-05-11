@@ -58,11 +58,11 @@ _This project uses TypeScript and Angular to create  components and compile code
 
   Album data structure:
   ````
-  Album {
-    artist: string
-    description: string
-    id: string (unique value required)
+  Article {
     title: string
+    description: string
+    image: string 
+    fullDescrption: string
   }
 ````
 
