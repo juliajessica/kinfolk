@@ -17,9 +17,37 @@
 ## <span style="color:#74875d;">Description</span>
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
 
-_Kinfolk is a single page webpage application is created to practice coding with modern JavaScript MVC's. The goal for this project was to mock the basic functionality of the <a href="https://kinfolk.com/shop/">Kinfolk</a> using TypeScript and Angular._
+_Kinfolk is a single page webpage application is created to practice coding with modern JavaScript MVC's. The goal for this project was to mock the basic functionality of the <a href="https://kinfolk.com/shop/">Kinfolk</a> using TypeScript, Angular, and Firebase._
 
 _This project uses TypeScript and Angular to create  components and compile code for faster loading, and easier functionality. I use a base model that holds and object and use event, property, and two-way data binding to pass my functionality throughout the application. The nestled child components each send data to the parent component filtering data down and action up which is an Angular technique used to pass along responsibility for variables, classes, events and even objects._
+
+## <span style="color:#74875d;">User Stories</span>
+
+| Behavior | Input | Output | Status |
+| :-------------     | :------------- | :------------- |  :------------- |
+| Customer wants to view a full description of the article | Input: "click on the article title" | Output: "full description of item" | Complete |
+| User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
+
+<strong>Check out the notes.md file for more details on my planning.</strong>
+
+## <span style="color:#74875d;">Angular MVC Framework</span>
+
+| Model | View | Component |
+| :-------------     | :------------- | :------------- |
+| { "allArticles": [{
+  "title": "string",
+  "description": "string",
+  "image": "string",
+  "fullDescription": "string"
+    }]
+  } | Homepage
+      Article Page | Homepage
+         Navbar
+         Article | 
+
+
+
+
 
 #### Node.js & NPM Installation Instructions
   Install `Node.js`, `TypeScript`, and `AngularCLI` globally through with the following commands in your home directory:
@@ -66,35 +94,17 @@ _This project uses TypeScript and Angular to create  components and compile code
   }
 ````
 
+## <span style="color:#74875d;">Technologies Used</span>
+
+| :------------ | :------------- |
+| CSS (Bootstrap) | JavaScript (JQuery) |
+| Angular | Node.js |
+| Eslint | API Calls with Firebase |
+
+
 ## <span style="color:#74875d;">Known Bugs</span>
 
 None
-
-## <span style="color:#74875d;">Technologies Used</span>
-
-| Development dependencies | Front end dependencies |
-| :------------ | :------------- |
-| Webpack | CSS (Bootstrap) |
-| Eslint | JavaScript (JQuery) |
-| TypeScript 2.1.4 | Popper
-| Angular AngularCli@1.6.5 | CSS-loader & Style-loader |
-
-### <span style="color:#74875d;">Specs</span>
-| Behavior | Input | Output |
-| :-------------     | :------------- | :------------- |
-| The program will have option for user to view a full description of the article | Input: "click event" | Output: "full description of item" |
-| The application will allow the user to subscribe | Input: "email is entered" | Output: "thank you!" |
-
-<strong>Check out the notes.md file for more details on my planning.</strong>
-
-## <span style="color:#74875d;">Technologies Used</span>
-
-| Development dependencies | Front end dependencies |
-| :------------ | :------------- |
-| Webpack | CSS (Bootstrap) |
-| Eslint | JavaScript (JQuery) |
-| Popper | API Calls with Firebase |
-| CSS-loader & Style-loader | | |
 
 ## License
 
