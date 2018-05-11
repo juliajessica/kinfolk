@@ -85,7 +85,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 ### <span style="color:#74875d;">Specs</span>
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| The program will have option for user to view a full description of the article | Input: "click event" | Output: "full description of item" |
+| The program will have option for user to view a full description of the article | Input: "click on any of the article titles on the right hand side" | Output: "full description of item" |
 | The application will allow the user to subscribe | Input: "email is entered" | Output: "thank you!" |
 
 <strong>Check out the notes.md file for more details on my planning.</strong>
