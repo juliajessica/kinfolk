@@ -12,17 +12,18 @@ export class EmailComponent implements OnInit {
 
   constructor(private router: Router, private albumService: ArticleService) { }
 
-  submitForm(userInput){
-    if (userInput === true){
-      document.getElementById("errorResponse").innerHTML = "Thank you!";
-    }
-    else {
-      document.getElementById("successResponse").innerHTML = "You have entered an invalid email address. Please try again.";
-    }
+  // submitForm(emailStr){
+  //   debugger;
+  //   let email = emailStr.includes("@");
+  //   console.log(email);
+  //   // if (email === true){
+  //     document.getElementById("successResponse").innerHTML = "Thank you!";
+  //     console.log(email);
+    // } else {
+    //   document.getElementById("errorResponse").innerHTML = "You have entered an invalid email address. Please try again.";
+    //   console.log(email);
+    // }
   }
-
-
-
   ngOnInit() {
   }
 
