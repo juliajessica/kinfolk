@@ -18,7 +18,6 @@ export class EmailComponent implements OnInit {
   //   console.log(email);
   //   // if (email === true){
       document.getElementById("successResponse").innerHTML = "Thank you!";
-      console.log(email);
     // } else {
     //   document.getElementById("errorResponse").innerHTML = "You have entered an invalid email address. Please try again.";
     //   console.log(email);
