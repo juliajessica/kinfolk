@@ -24,17 +24,16 @@ _This project uses TypeScript and Angular to create  components and compile code
 ## <span style="color:#74875d;">User Stories</span>
 
 | User Behavior | Input | Output | Status |
-| :-------------     | :------------- | :------------- |  :------------- |
+| :------------- | :------------- | :------------- |  :------------- |
 | Customer wants to view a full description of the article | Input: "click on the article title" | Output: "full description of item" | Complete |
 | User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
-=======
 
 <strong>Check out the notes.md file for more details on my planning.</strong>
 
 ## <span style="color:#74875d;">Angular MVC Framework</span>
 
 | Model | View | Component |
-| :-------------     | :------------- | :------------- |
+| :------------- | :------------- | :------------- |
 | allArticles: [{<br> title: "string",<br> description: "string",<br> image: "string",<br> fullDescription: "string"<br> }]<br> | Homepage<br> Article Page | Homepage<br> Navbar<br> Article |
 
 #### Node.js & NPM Installation Instructions
@@ -74,7 +73,7 @@ _This project uses TypeScript and Angular to create  components and compile code
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
-| :------------ | :------------- |
+| :------------ | :------------- | :------------- |
 | CSS (Bootstrap) | JavaScript (JQuery) |
 | Angular | Node.js |
 | Eslint | API Calls with Firebase |
