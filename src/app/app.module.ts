@@ -12,6 +12,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ArticleComponent } from './article/article.component';
 import { EmailComponent } from './email/email.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ShopComponent } from './shop/shop.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -26,7 +27,8 @@ export const firebaseConfig = {
     HomepageComponent,
     ArticleComponent,
     EmailComponent,
-    NavbarComponent
+    NavbarComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
