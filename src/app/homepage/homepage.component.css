@@ -88,7 +88,13 @@ h1, .h1 {
 }
 
 h1.c-item__title {
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.c-item__title a, ul.products .product .price a {
+  text-decoration: none;
 }
 
 #firstArticleImg {
@@ -109,6 +115,14 @@ h1.c-item__title {
   position: relative;
 }
 
+/*.images:hover{
+  background-color: #e8ebef;
+}*/
+
+/*.container-fluid:hover .images {
+  opacity: 0.3;
+}*/
+
 figure {
   margin: 0;
 }
@@ -123,13 +137,13 @@ figure {
   text-decoration: none;
   color: #999999;
   letter-spacing: 0.1em;
+  font-size: 12px;
 }
 
 .c-item--xl .c-item__title, .c-item--xl ul.products .product .price, ul.products .product .c-item--xl .price {
   font-family: "Domaine", serif;
-  font-size: 3.9375rem;
   letter-spacing: 0em;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .c-item--xl .c-item__content {

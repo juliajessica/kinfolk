@@ -16,7 +16,7 @@
 						<div class="col-sm-5 col [ match--parent ]">
 							<article class="c-item c-item--xl [ js-sticky ]" id="left-side-article">
 								<figure class="c-item__image">
-									<a href="https://kinfolk.com/paris-redirect/"><img src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_ParisCityGuide_HotelPanache_002-700x700.jpg" id="firstArticleImg"></a>
+									<a href="https://kinfolk.com/paris-redirect/"><img src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_ParisCityGuide_HotelPanache_002-700x700.jpg" id="firstArticleImg" class="images"></a>
 								</figure>
 								<div class="c-item__content">
 									<h1 class="c-item__title"><a href="https://kinfolk.com/paris-redirect/">Paris City Guide</a></h1>
@@ -31,12 +31,12 @@
 		</div>
 		<!-- //array -->
 		<div class="articles-array">
-			<div class="vr">&nbsp;</div>
+			<!-- <div class="vr">&nbsp;</div> -->
 			<div class="col-sm-5 [ match--parent ]" id="right-col-articles" >
 				<!-- <div class="col-sm-12 col-md-6 col-lg-6 [ border-//-left-//-medium match ]"> -->
 					<article class="c-item c-item--vertical" *ngFor="let singleArticle of articles | async">
 						<figure class="c-item__image">
-							<img src={{singleArticle.image}} data-src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_StudioDavidThulstrup_009-350x525.jpg" class="attachment-small size-small lazy lazyload" alt="Kinfolk images" id="resize-img">
+							<img src={{singleArticle.image}} data-src="https://kinfolk.com/wp-content/uploads/2018/04/Kinfolk_StudioDavidThulstrup_009-350x525.jpg" class="attachment-small size-small lazy lazyload images" alt="Kinfolk images" id="resize-img">
 						</figure>
 						<div class="c-item__content">
 							<div class="c-item__list">
@@ -54,5 +54,4 @@
 		</div>
 	</div>
 </div>
-
 <app-email></app-email>
