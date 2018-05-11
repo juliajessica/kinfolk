@@ -1,6 +1,6 @@
 # _<p align="center">Julia Sheremet</p>_
 
-#### _<p align="center">Kinfolk Reproduction using Angular, TypeScript, and Firebase</p>_
+#### _<p align="center">Kinfolk Reproduction using Angular, TypeScript, and Firebase :fire:</p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 
@@ -27,6 +27,10 @@ _This project uses TypeScript and Angular to create  components and compile code
 | :------------- | :------------- | :------------- |  :------------- |
 | Customer wants to view a full description of the article | Input: "click on the article title" | Output: "full description of item" | Complete |
 | User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
+| Customer wants to shop from the navbar | Input: "click shop" | Output: "all purchasable kinfolk items" |  Under Construction |
+| Customer wants to shop kinfolk items | Input: "click shop" | Output: "all purchasable kinfolk items" |  Under Construction |
+| Customer wants to use the search bar | Input: "enter a search query" | Output: "searched item" |  Under Construction |
+| Customer wants to view the gallery from the navbar | Input: "click gallery" | Output: "view carousel of kinfolk images" |  Under Construction |
 
 <strong>Check out the notes.md file for more details on my planning.</strong>
 
@@ -79,7 +83,6 @@ _This project uses TypeScript and Angular to create  components and compile code
 | Eslint | API Calls with Firebase |
 
 ## <span style="color:#74875d;">Known Bugs</span>
-
 None
 
 ## License
