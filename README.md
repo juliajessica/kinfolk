@@ -27,6 +27,7 @@ _This project uses TypeScript and Angular to create  components and compile code
 | :-------------     | :------------- | :------------- |  :------------- |
 | Customer wants to view a full description of the article | Input: "click on the article title" | Output: "full description of item" | Complete |
 | User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
+=======
 
 <strong>Check out the notes.md file for more details on my planning.</strong>
 
@@ -35,9 +36,6 @@ _This project uses TypeScript and Angular to create  components and compile code
 | Model | View | Component |
 | :-------------     | :------------- | :------------- |
 | allArticles: [{<br> title: "string",<br> description: "string",<br> image: "string",<br> fullDescription: "string"<br> }]<br> | Homepage<br> Article Page | Homepage<br> Navbar<br> Article |
-
-
-
 
 #### Node.js & NPM Installation Instructions
   Install `Node.js`, `TypeScript`, and `AngularCLI` globally through with the following commands in your home directory:
@@ -67,22 +65,12 @@ _This project uses TypeScript and Angular to create  components and compile code
   Enter the following code in the command line to install all dependencies:
   * Clone repository on your local computer.
   * Run `$ npm install` to load all required packages
-  * Run `$ng serve --open` to run developement mode
+  * Run `$ng serve --open` to run development mode
 
 #### Website Functions
-  * Add single albums to database on Admin page.
+  * Add a single album to database on Admin page.
   * Firebase will auto-generate keys for each album.
-  * Add multiple albums to database via JSON import in Firebase Console.
-
-  Album data structure:
-  ````
-  Article {
-    title: string
-    description: string
-    image: string
-    fullDescrption: string
-  }
-````
+  * Add multiple albums to the database via JSON import in Firebase Console.
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
