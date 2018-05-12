@@ -1,19 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { ArticleService } from '../article.service';
+import { FirebaseListObservable } from 'angularfire2/database';
+import { ShopService } from '../shop.service';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
   styleUrls: ['./shop.component.css'],
-  providers: [ArticleService]
+  providers: [ShopService]
 })
 export class ShopComponent implements OnInit {
+  shoppingItems: FirebaseListObservable<any[]>;
 
   constructor(private router: Router,
-              private articleService: ArticleService) { }
+              private shopService: ShopService) { }
 
   ngOnInit() {
+    this.shoppingItems = this.shopService.getItemsForSale();
+  }
+  itemForSale(clickedItem){
+    this.router.navigate(['shop-item', clickedItem.$key])
   }
 
 }

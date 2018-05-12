@@ -14,6 +14,6 @@ export class ShopService {
     return this.shoppingItems;
   }
   findItemforSaleById(ItemId: string){
-    return this.database.object('shoppingArray' + ItemId);
+    return this.database.object('shoppingArray/' + ItemId);
   }
 }
