@@ -6,6 +6,7 @@ import { ArticleComponent } from './article/article.component';
 import { EmailComponent } from './email/email.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ShopComponent } from './shop/shop.component';
+import { ShoppingItemComponent } from './shopping-item/shopping-item.component';
 
 const appRoutes: Routes = [
   {
@@ -26,7 +27,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'shop/:id',
-    component: ShopComponent
+    component: ShoppingItemComponent
   },
   {
     path: 'article/:id',
