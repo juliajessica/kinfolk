@@ -21,7 +21,7 @@ const appRoutes: Routes = [
     component: EmailComponent
   },
   {
-    path: 'shop',
+    path: 'shop/:id',
     component: ShopComponent
   },
   {
