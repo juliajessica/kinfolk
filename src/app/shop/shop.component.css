@@ -8,3 +8,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.image:hover{
+  background-color: #e8ebef;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+p, h5 {
+  text-align: center;
+}

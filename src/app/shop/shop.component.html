@@ -1,10 +1,8 @@
 <div class="row">
-  <div class="col-sm-3">
-    <div class="card" *ngFor="let shoppingItem of shoppingItems | async" (click)="itemForSale(shoppingItem)">
-      <img src='{{shoppingItem.image}}' alt="image of kinfolk item for sale">
-      <h5>{{shoppingItem.tag}}</h5>
-      <strong><p>{{shoppingItem.title}}</p></strong>
-      <strong><p>{{shoppingItem.price}}</p></strong>
-    </div>
+  <div class="card col-12 col-sm-4" *ngFor="let shoppingItem of shoppingItems | async" (click)="itemForSale(shoppingItem)">
+    <img src='{{shoppingItem.image}}' class="image" alt="image of kinfolk item for sale">
+    <h5>{{shoppingItem.tag}}</h5>
+    <strong><p>{{shoppingItem.title}}</p></strong>
+    <strong><p>{{shoppingItem.price}}</p></strong>
   </div>
 </div>
