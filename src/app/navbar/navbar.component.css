@@ -167,13 +167,6 @@ hr {
   padding-left: 20px;
 }
 
-.c-social {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  list-style-type: none;
-  overflow: hidden;
-}
 .c-social__network{
   float: left;
 }
@@ -194,6 +187,9 @@ hr {
   list-style: none;
   width: 100%;
   display: inline;
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
 }
 
 .l-nav .c-social {
