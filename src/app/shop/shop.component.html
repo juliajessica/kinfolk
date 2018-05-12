@@ -2,9 +2,9 @@
   <div class="col-sm-3">
     <div class="card" *ngFor="let ShoppingItems of shoppingItem | async" (click)="itemForSale(shoppingItem)">
       <img src='{{(shoppingItem | async)?.image}}' alt="image of kinfolk item for sale">
-      <h5>Magazine</h5>
-      <strong><p>Issue 27</p></strong>
-      <strong><p>$17</p></strong>
+      <h5>{{shoppingItem.tag}}</h5>
+      <strong><p>{{shoppingItem.title}}</p></strong>
+      <strong><p>{{shoppingItem.price}}</p></strong>
     </div>
   </div>
 </div>
