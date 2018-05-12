@@ -26,9 +26,9 @@ _This project uses TypeScript and Angular to create  components and compile code
 | User Behavior | Input | Output | Status |
 | :------------- | :------------- | :------------- |  :------------- |
 | Customer wants to view a full description of the article | Input: "click on the article title" | Output: "full description of item" | Complete |
-| User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
 | Customer wants to shop from the toggled navbar or the "shop" on the top right | Input: "click shop" | Output: "all purchasable kinfolk items" | Complete |
-| Customer wants to shop kinfolk items | Input: "click shop" | Output: "all purchasable kinfolk items" |  Under Construction |
+| Customer wants to select a specific kinfolk item to purchase | Input: "click item" | Output: "all purchasable kinfolk items" |  Complete |
+| User wants to subscribe | Input: "email is entered" | Output: "thank you!" |  Under Construction |
 | Customer wants to use the search bar | Input: "enter a search query" | Output: "searched item" |  Under Construction |
 | Customer wants to view the gallery from the navbar | Input: "click gallery" | Output: "view carousel of kinfolk images" |  Under Construction |
 
