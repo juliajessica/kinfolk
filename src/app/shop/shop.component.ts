@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { ShopService } from '../shop.service';
 import { Router } from '@angular/router';
-import { Shop } from '../models/shop.model';
+// import { Shop } from '../models/shop.model';
 
 @Component({
   selector: 'app-shop',

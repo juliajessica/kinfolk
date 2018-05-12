@@ -1,3 +1,12 @@
-<p>
-  shopping-item works!
-</p>
+<div class="row">
+  <div class="card col-12 col-sm-6" style="width:400px">
+    <div class="img-resize">
+      <img class="card-img-top" src='{{(itemToDisplay | async)?.image}}' alt="Card image">
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">{{(itemToDisplay | async)?.fullTitle}}</h4>
+      <p class="card-text">{{(listingToDisplay | async)?.description}}</p>
+      <hr>
+    </div>
+  </div>
+</div>

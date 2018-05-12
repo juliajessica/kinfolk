@@ -23,5 +23,6 @@ export class ShoppingItemComponent implements OnInit {
       this.itemId = urlParameters['id'];
     });
     this.itemToDisplay = this.shopService.findItemforSaleById(this.itemId);
+    //new name for item selected
   }
 }
