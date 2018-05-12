@@ -1,9 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/c862d8098ce50a7dc042ebbb9b94bbc8?family=TwCenW01-Medium);
 
-/**, ::before, ::after {
-  box-sizing: border-box;
-}*/
-
 div {
   display: block;
 }
@@ -111,17 +107,9 @@ h1.c-item__title {
 }
 
 .c-item__image {
-  /*background-color: #F2F2F2;*/
+
   position: relative;
 }
-
-/*.images:hover{
-  background-color: #e8ebef;
-}*/
-
-/*.container-fluid:hover .images {
-  opacity: 0.3;
-}*/
 
 figure {
   margin: 0;
@@ -191,20 +179,10 @@ figure {
   left: 150px;
 }
 
-/*#right-col-articles {
-  position: absolute;
-  display: inline-block;
-}*/
-
 #resize-img {
   height:370px;
   width:auto;
 }
-
-/*///right row*/
-/*figure {
-  margin: 0;
-}*/
 
 .c-item--vertical .c-item__image {
   margin-bottom: 7px;
@@ -215,15 +193,6 @@ figure {
   margin-left: -0.625rem;
   margin-right: -0.625rem;
 }
-
-/*.vl {
-  border-left: 1px solid grey;
-  height: 4000px;
-  margin-left: 30px;
-  margin-right: 30px;
-  right: 800px;
-  position:absolute;
-}*/
 
 #paris-article {
   display: flex;
@@ -240,4 +209,25 @@ figure {
   flex-direction: column;
   text-align:center;
   padding-left: 60%;
+}
+
+.c-item__list {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.115em;
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+}
+
+.underline-link {
+  border-bottom: 1px solid #D17D74;
+  text-decoration: none;
+  text-transform: uppercase;
+letter-spacing: 0.115em;
+font-family: "Tw Cen W01 Light", sans-serif;
+font-size: 12px;
+font-size: 0.75rem;
+font-weight: lighter;
 }

@@ -1,0 +1,51 @@
+.row {
+  padding: 25px;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border: none;
+}
+
+.img-resize {
+  margin-left: auto;
+  margin-left: auto;
+  max-height:400px;
+  max-width: auto;
+  display: flex;
+
+}
+.card-title {
+  letter-spacing: 0.025em;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  font-family: "Tw Cen W01 Medium", sans-serif;
+  font-size: 38px;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: normal;
+  display: block;
+}
+
+.card-price {
+  font-size: 19px;
+}
+
+.card-text {
+  line-height: 1.9;
+  margin-bottom: 45px;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+h2 {
+  text-align: center; */
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  font-family: "Tw Cen W01 Light", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+}
