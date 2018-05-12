@@ -20,7 +20,8 @@ export class ShopComponent implements OnInit {
     this.shoppingItems = this.shopService.getItemsForSale();
   }
   itemForSale(clickedItem){
-    this.router.navigate(['shop-item', clickedItem.$key])
+    console.log(clickedItem.title);
+    this.router.navigate(['shop', clickedItem.$key])
   }
 
 }

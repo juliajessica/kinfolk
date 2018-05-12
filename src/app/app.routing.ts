@@ -25,7 +25,7 @@ const appRoutes: Routes = [
     component: ShopComponent
   },
   {
-    path: 'shop-item/:id',
+    path: 'shop/:id',
     component: ShopComponent
   },
   {
