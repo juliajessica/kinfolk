@@ -13,6 +13,7 @@ import { ArticleComponent } from './article/article.component';
 import { EmailComponent } from './email/email.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ShopComponent } from './shop/shop.component';
+import { ShoppingItemComponent } from './shopping-item/shopping-item.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,7 +29,8 @@ export const firebaseConfig = {
     ArticleComponent,
     EmailComponent,
     NavbarComponent,
-    ShopComponent
+    ShopComponent,
+    ShoppingItemComponent
   ],
   imports: [
     BrowserModule,
