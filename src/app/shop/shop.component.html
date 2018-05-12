@@ -1,10 +1,10 @@
-<!-- <div class="row">
+<div class="row">
   <div class="col-sm-3">
     <div class="card" *ngFor="let ShoppingItems of shoppingItem | async" (click)="itemForSale(shoppingItem)">
       <img src='{{(shoppingItem | async)?.image}}' alt="image of kinfolk item for sale">
-      <h5>{{shoppingItem.tag}}</h5>
-      <strong><p>{{shoppingItem.title}}</p></strong>
-      <strong><p>{{shoppingItem.price}}</p></strong>
+      <h5>{{(shoppingItem | async)?.tag }}</h5>
+      <strong><p>{{(shoppingItem | async)?.title}}</p></strong>
+      <strong><p>{{(shoppingItem | async)?.price}}</p></strong>
     </div>
   </div>
-</div> -->
+</div>
