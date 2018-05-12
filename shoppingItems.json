@@ -1,0 +1,86 @@
+{ "shoppingArray": [{
+  "image": "",
+  "tag": "MAGAZINE",
+  "title": "Issue 27",
+  "price": "$18",
+  "fullTitle": "Kinfolk Issue Twenty-Seven",
+  "fullDetails": "Introducing The Paris Issue: This spring, we visit Paris and explore one of the world’s most iconic cities through the Kinfolk lens, examining the essence of joie de vivre and how it translates into life outside the French capital. We spend a day in the Marais with Ramdane Touhami, the energetic entrepreneur behind L’Officine Universelle Buly, pay a visit to the modernist pied-à-terre of Emmanuel de Bayser, pore over the archives at Hermès, and meet a diverse roster of Parisians that have made their city one of our favorites. Elsewhere in Issue Twenty-Seven, we meet musician Benjamin Clementine, delve into the life and work of artist Monir Shahroudy Farmanfarmaian in Tehran, drill into subjects such as loneliness, the dead of night and true grit, speak to fashion designer Khalid Al Qasimi and meet dancers Akram Khan and Michaela Prince, plus much more."
+  }, {
+  "image": "",
+  "tag": "SUBSCRIPTIONS",
+  "title": "Premium Subscription",
+  "price": "From: $75",
+  "fullTitle": "",
+  "fullDetails": "Premium Subscribers enjoy the following benefits: Four print issues of Kinfolk magazine per year. Access to the entire Kinfolk.com archive including all stories from nine print issues and all web exclusives for 12 months. Complimentary set of Kinfolk Notecards.* 10% discount to use at the Kinfolk.com shop. Automatic renewals of annual subscription: never miss an issue.** Option to add the current issue to your order at a 30% discount below. Option to add The Kinfolk Home to your order at a 35% discount below."
+  }, {
+  "image": "",
+  "tag": "SUBSCRIPTIONS",
+  "title": "Digital Subscription",
+  "price": "$40 for 1 year",
+  "fullTitle": "",
+  "fullDetails": ""
+  }, {
+  "image": "",
+  "tag": "BOOKS",
+  "title": "The Kinfolk Entrepreneur",
+  "price": "$35",
+  "fullTitle": "",
+  "fullDetails": "Subscribe to Kinfolk.com and enjoy the following benefits: Get the first look at new issues, with all content available online before the print magazine arrives in stores. Access to the entire Kinfolk.com archive and all web exclusives for 12 months. Automatic renewals: never miss a story.* For more information about subscriptions, visit our FAQ page."
+  },{
+  "image": "",
+  "tag": "BOOKS, MAGAZINE",
+  "title": "Entrepreneur and Latest Issue Bundle",
+  "price": "$45",
+  "fullTitle": "Ideas for Meaningful Work",
+  "fullDetails": "Join Nathan Williams and the Kinfolk team as they visit more than 40 creative entrepreneurs from around the world who are making business personal. Explore how visionary ideas take root and ripen into careers, and the myriad ways in which the pursuit of meaning and passion, and the experiences of disappointment and defeat, can motivate both professional success and a balanced quality of life. Through insightful interviews with leaders in the worlds of publishing, architecture, fashion, design and beyond, The Kinfolk Entrepreneur captures the ambitions and realities of today’s creative class and offers tips, advice and inspiration for anyone looking to forge their own path in life. Available for order now."
+  }, {
+  "image": "",
+  "tag": "MAGAZINE",
+  "title": "Archive Bundle",
+  "price": "$35",
+  "fullTitle": "",
+  "fullDetails": ""
+  }, {
+  "image": "",
+  "tag": "BOOKS, MAGAZINE",
+  "title": "Home and Latest Issue Bundle",
+  "price": "$45",
+  "fullTitle": "The Kinfolk Entrepreneur and Issue Twenty-Seven",
+  "fullDetails": "Through insightful interviews with leaders in the worlds of publishing, architecture, fashion, design and beyond, The Kinfolk Entrepreneur captures the ambitions and realities of today’s creative class and offers tips, advice and inspiration for anyone looking to forge their own path in life. Order it along with the latest issue of Kinfolk magazine at a 15% discount off the total price."
+  }, {
+  "image": "",
+  "tag": "MAGAZINE",
+  "title": "Issue 26",
+  "price": "$18",
+  "fullTitle": "Archive Bundle",
+  "fullDetails": "The notecard collection is a practical extension of Kinfolk's focus on cultivating community and nurturing friendships. Collect all three editions and save over 35% off the original price. Includes: Issue Eight: The Japan Issue. An ode to a country and culture we admire, Issue Eight is a glimpse of Japan through the Kinfolk lens. Publication date: June 4th, 2013. Issue Nine: The Weekend Issue. Do weekends still exist? How to find the ultimate work-play balance, plus ideas for idle time, rejuvenation and deep relaxation. Publication date: September 10th, 2013. Issue Ten: The Aged Issue. Dedicated to all things that get better with time: loved ones, food, family traditions and a good bottle of wine. Embrace growing old with style and grace. Publication date: December 3rd, 2013."
+  },{
+  "image": "",
+  "tag": "BOOKS",
+  "title": "Kinfolk Book Bundle",
+  "price": "$59",
+  "fullTitle": "",
+  "fullDetails": ""
+  }, {
+  "image": "",
+  "tag": "MAGAZINE",
+  "title": "Issue 25",
+  "price": "$18",
+  "fullTitle": "",
+  "fullDetails": ""
+  }, {
+  "image": "",
+  "tag": "MAGAZINE",
+  "title": "Issue 24",
+  "price": "$18",
+  "fullTitle": "",
+  "fullDetails": ""
+  }, {
+  "image": "",
+  "tag": "MAGAZINE",
+  "title": "Issue 23",
+  "price": "$18",
+  "fullTitle": "",
+  "fullDetails": ""
+  }]
+}
