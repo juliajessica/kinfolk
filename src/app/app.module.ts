@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
+import { shoppingFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
@@ -22,6 +23,13 @@ export const firebaseConfig = {
   storageBucket: masterFirebaseConfig.storageBucket
 };
 
+export const shopFirebaseConfig = {
+  apiKey: shoppingFirebaseConfig.apiKey,
+  authDomain: shoppingFirebaseConfig.authDomain,
+  databaseURL: shoppingFirebaseConfig.databaseURL,
+  storageBucket: shoppingFirebaseConfig.storageBucket
+};
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +46,7 @@ export const firebaseConfig = {
     HttpModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(shopFirebaseConfig),
     AngularFireDatabaseModule
   ],
   providers: [],
