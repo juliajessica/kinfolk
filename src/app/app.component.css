@@ -71,57 +71,64 @@ a {
   width: 17.9px;
   height: 17.9px;
 }
-
+/*
 #list-item{
   align-items: center;
+}*/
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
+.site {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
 .c-social {
-  display: block;
-  list-style: none;
-  list-style-type: none;
-  overflow: hidden;
-  padding-top: 25px;
-  display: inline;
-  box-sizing: border-box;
-  text-align: center;
-  width: 45%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .c-social__network {
   float: left;
   padding: 12px;
+  align-items: center;
 }
 
-.terms {
-  width: 20%;
-}
-
-.site {
-  width: 20%;
-}
-
-.footer {
+.flex-container {
+  padding: 10;
+  margin: 0;
+  list-style: none;
+  display: flex;
   text-transform: uppercase;
   letter-spacing: 0.115em;
   font-family: sans-serif;
   font-size: 16px;
-  height: 100%;
+}
+/*.c-social {
+
+}*/
+
+row {
   width: 100%;
-  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.row {
-  display: table;
-  max-width: none;
-  display: block;
+.flex-item {
+  padding: 0px;
+  /*margin-left: 0px;*/
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
-.row .row.collapse {
-  position: relative;
-  margin-left: 0;
-  margin-right: 0;
-  /*display: flex;
-  justify-content: center;
-  flex-direction: column;*/
+.flex-item-2 {
+  padding: 0px;
+  /*margin-left: 0px;*/
+  margin-left: 60px;
+  margin-right: 60px;
 }
