@@ -1,43 +1,42 @@
 <div class="container">
   <body>
-    <h1 class="page__title page__title--padding">{{(displayArticle | async)?.title}}</h1>
-    <img src='{{(displayArticle | async)?.image}}' alt="image of article from kinfolk">
-    <p class="description"></p>
-    <hr width="1" size="500">
-    <div class="column small-12 medium-9 xlarge-4 xlarge-push-2 border--left--medium [ match ] ">
+    <div class="content-left">
+      <h1 class="page__title page__title--padding">{{(displayArticle | async)?.title}}</h1>
+      <img src='{{(displayArticle | async)?.image}}' alt="image of article from kinfolk">
+      <p class="c-lead" class="description">{{(displayArticle | async)?.description}}</p>
+      <!-- <hr width="1" size="800" class="verticle-line"> -->
+    </div>
+    <div class="show--medium content-middle">
+      <ul class="c-credits">
+        <li>
+          <div>Photography:</div>Annie Lai</li>
+        <li>
+          <div>Styling:</div>Kingsley Tao</li>
+        <li>
+          <div>Hair and Makeup:</div>Jonathan Sanchez</li>
+        <li>
+          <div>Casting:</div>Sarah Bunter</li>
+      </ul>
+      <ul class="c-item__list bare-list mb0">
+        <li><a href="https://kinfolk.com/stories/fashion/">Fashion</a></li>
+        <li><a href="/stories/issue-27">Issue 27</a></li>
+      </ul>
+    </div>
+    <div class="column small-12 medium-9 xlarge-4 xlarge-push-2 border--left--medium [ match ] content-right">
+      <hr width="1" size="700" class="verticle-line">
       <div class="single-post__text">
-        <p class="c-lead">{{(displayArticle | async)?.description}}</p>
-        <p>{{(displayArticle | async)?.fullDescription}}</p>
-        <div class="show--medium c-credits--helper">
-          <ul class="c-credits">
-            <li>
-              <div>Photography:</div>Annie Lai</li>
-            <li>
-              <div>Styling:</div>Kingsley Tao</li>
-            <li>
-              <div>Hair and Makeup:</div>Jonathan Sanchez</li>
-            <li>
-              <div>Casting:</div>Sarah Bunter</li>
-          </ul>
-        </div>
         <ul class="c-social c-social--share">
           <li class="c-social__network"><a href="https://twitter.com/intent/tweet?text=Métro, Boulot, Disco %7C&url=https://kinfolk.com/metro-boulot-disco/&via=kinfolkmag" target="_blank">twitter</a></li>
           <li class="c-social__network"><a href="http://www.facebook.com/sharer/sharer.php?u=https://kinfolk.com/metro-boulot-disco/" target="_blank">facebook</a></li>
           <li class="c-social__network"><a href="http://pinterest.com/pin/create/button/?url=https://kinfolk.com/metro-boulot-disco/&description=Kinfolk %7C Métro, Boulot, Disco&media=https://kinfolk.com/wp-content/uploads/2018/02/Metro_Boulet_Disco_01-768x1024.jpg" target="_blank">pinterest</a>
           </li>
         </ul>
-        <ul class="c-item__list bare-list mb0">
-          <li><a href="https://kinfolk.com/stories/fashion/">Fashion</a></li>
-          <li><a href="/stories/issue-27">Issue 27</a></li>
-        </ul>
-<!-- <hr> -->
+        <p>{{(displayArticle | async)?.fullDescription}}</p>
         <div class="c-paywall">
           <p class="p--tertiary">This story appears in a print issue of Kinfolk. You’re welcome to read three stories from each print issue of Kinfolk for free. To continue reading this story, <a id="paywall-click" href="https://kinfolk.com/metro-boulot-disco/">click here</a>.</p>
           <p class="p--tertiary">If you'd like to enjoy unlimited access to our online archive, subscribe <a href="/product-category/subscriptions/">here</a>. If you’re already a subscriber, please <a href="https://kinfolk.com/my-account/" title="Login / Register">sign in</a>.</p>
-
           <p class="p--tertiary">Alternatively, keep browsing <a href='/'>Kinfolk.com</a> to enjoy more free content.</p>
         </div>
-
       </div>
     </div>
     <div class="table [ js-publish-issue ]" style="height: calc(100% - 252px);">
@@ -54,7 +53,5 @@
         </div>
       </div>
     </div>
-
-
   </body>
 </div>

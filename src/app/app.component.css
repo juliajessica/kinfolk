@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-/*div {
-  display: block;
-}*/
-
 li {
   display: list-item;
   text-align: -webkit-match-parent;
@@ -71,10 +67,6 @@ a {
   width: 17.9px;
   height: 17.9px;
 }
-/*
-#list-item{
-  align-items: center;
-}*/
 
 .terms {
   display: flex;
@@ -109,9 +101,6 @@ a {
   font-family: sans-serif;
   font-size: 16px;
 }
-/*.c-social {
-
-}*/
 
 row {
   width: 100%;
@@ -121,14 +110,12 @@ row {
 
 .flex-item {
   padding: 0px;
-  /*margin-left: 0px;*/
   margin-left: 60px;
   margin-right: 60px;
 }
 
 .flex-item-2 {
   padding: 0px;
-  /*margin-left: 0px;*/
   margin-left: 60px;
   margin-right: 60px;
 }
