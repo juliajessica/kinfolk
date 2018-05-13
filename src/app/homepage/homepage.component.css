@@ -233,30 +233,21 @@ figure {
 
 .banner {
   background: url("/assets/img/banner.jpg") no-repeat top center fixed;
-  background-size: 50% 50%;
-  background-size: cover;
-  width: 1300px;
+  background-size: contain;
+  /*background-size: cover;*/
+  width: 100%;
   height: 300px;
   margin: 0;
   padding: 0;
   position: relative;
 }
 
-/*html{
-  height: 100%;
+.wrapper {
   width: 100%;
+  overflow: hidden;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  height: 100%;
+.yes {
   width: 100%;
-}*/
-
-/*.row{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}*/
+  margin-right: 0 auto;
+}
