@@ -260,8 +260,3 @@ body{
   margin: 0;
   padding: 0;
 }*/
-
-#right-col-articles{
-  display: flex;
-  justify-content: flex-end;
-}
