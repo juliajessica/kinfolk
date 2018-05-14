@@ -1,15 +1,16 @@
 <div class="container">
   <body>
     <div class="row">
-      <div class="col-sm-6" style="height: 1004px;">
+      <div class="col-sm-7">
         <div class="content-left">
           <h1>{{(displayArticle | async)?.title}}</h1>
           <img src='{{(displayArticle | async)?.image}}' alt="image of article from kinfolk">
           <p class="c-lead" class="description">{{(displayArticle | async)?.description}}</p>
           <hr width="1" size="800" class="verticle-line">
+          <hr width="1" size="500">
         </div>
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-4">
         <div class="content-middle">
           <ul class="c-credits">
             <li>
@@ -39,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper-sticky sticky-active column small-12 medium-9 border--left--xlarge [ match ]">
+      <div class="wrapper-sticky sticky-active column small-12 medium-9">
         <div class="col-sm-4">
           <!-- <hr width="1" size="700" class="verticle-line"> -->
           <div class="single-post__text">
