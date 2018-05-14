@@ -1,28 +1,5 @@
-.content-left {
-  /*padding-left:
-  float: left;*/
-
-  /*display: flex;
-  justify-content: flex-start;
-  flex-direction: column;*/
-}
-
-
 ul {
   list-style-type: none;
-}
-
-.content-middle {
-  /*float: right;
-  height: 1004px;
-  position: relative;
-  left: -33.33333%;
-  width: 16.66667%;*/
-  /*padding-left: 1.25rem;
-  padding-right: 1.25rem;*/
-  /*display: flex;
-  justify-content: flex-end;
-  flex-direction: column;*/
 }
 
 @media screen and (min-width: 40em)
@@ -30,27 +7,9 @@ ul {
   border-left: 1px solid #E1E0E1;
 }
 
-.content-right {
-  /*top: 132px;
-  bottom: auto;
-  right: 1321.5px;
-  right: auto;
-  /*position: relative;*/
-  /*display: block;
-  height: 454px;
-  width: auto;
-  margin: auto;
-  float: none;
-  left: auto;
-  right: auto;
-  top: auto;
-  bottom: auto;
-  vertical-align: top;*/
-}
-
 img {
   max-height: 600px;
-  width: 47%;
+  width: 46%;
   padding: 25px;
 }
 
@@ -60,11 +19,8 @@ img {
 }
 
 h1 {
-  /*text-align: center;
-  display: block;*/
   font-size: 50px;
   font-size: 3.125rem;
-  /*margin: 0 0 25px;*/
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
@@ -93,7 +49,6 @@ body {
   display: block;
   height: 390px;
   width: auto;
-  /*margin: auto;*/
   position: relative;
   float: none;
   left: auto;
@@ -102,10 +57,6 @@ body {
   bottom: auto;
   vertical-align: top;
 }
-
-/*user agent stylesheet div {
-  display: block;
-}*/
 
 body {
   font-family: "Feijoa", serif;
