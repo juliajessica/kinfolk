@@ -1,16 +1,46 @@
 .content-left {
-  display: flex;
+  /*padding-left:
+  float: left;*/
+
+  /*display: flex;
   justify-content: flex-start;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 
 .content-middle {
- display: flex;
+  /*float: right;
+  height: 1004px;
+  position: relative;
+  left: -33.33333%;
+  width: 16.66667%;*/
+  /*padding-left: 1.25rem;
+  padding-right: 1.25rem;*/
+  /*display: flex;
+  justify-content: flex-end;
+  flex-direction: column;*/
+}
 
+@media screen and (min-width: 40em)
+.border--left--medium {
+  border-left: 1px solid #E1E0E1;
 }
 
 .content-right {
-
+  /*top: 132px;
+  bottom: auto;
+  right: 1321.5px;
+  right: auto;
+  /*position: relative;*/
+  /*display: block;
+  height: 454px;
+  width: auto;
+  margin: auto;
+  float: none;
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+  vertical-align: top;*/
 }
 
 img {
@@ -19,45 +49,23 @@ img {
   padding: 25px;
 }
 
-/*.page__title--padding {
-  padding-left: 15px;
-  padding-right: 15px;
-}*/
-
 .page__title {
-  /*font-family: "Domaine", serif; */
   font-style: normal;
   font-weight: normal;
 }
 
 h1 {
-  text-align: center;
-  display: block;
+  /*text-align: center;
+  display: block;*/
   font-size: 50px;
   font-size: 3.125rem;
-  margin: 0 0 25px;
+  /*margin: 0 0 25px;*/
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Domaine", serif;
   font-weight: lighter;
   font-style: normal;
-}
-
-element.style {
-  height: 473px;
-}
-
-.medium-9 {
-  width: 75%;
-}
-
-.small-12 {
-  width: 100%;
-}
-
-.show--medium {
-  display: block;
 }
 
 *, *:before, *:after {
@@ -80,7 +88,7 @@ body {
   display: block;
   height: 390px;
   width: auto;
-  margin: auto;
+  /*margin: auto;*/
   position: relative;
   float: none;
   left: auto;
@@ -90,9 +98,9 @@ body {
   vertical-align: top;
 }
 
-user agent stylesheet div {
+/*user agent stylesheet div {
   display: block;
-}
+}*/
 
 body {
   font-family: "Feijoa", serif;
@@ -131,38 +139,46 @@ body {
   width: 25%;
 }
 
+@media screen and (min-width: 75em)
+.xlarge-push-2 {
+  position: relative;
+  left: 16.66667%;
+}
+
+@media screen and (min-width: 40em)
+.column, .columns {
+  padding-left: 1.25rem;
+}
+
 .small-12 {
   width: 100%;
 }
 
-div {
+/*div {
   display: block;
-}
+}*/
 
 .single-post__text p, .single-post__text ul {
   line-height: 1.7;
 }
 
 .c-lead {
+  /*padding-left: 10px;*/
   line-height: 1.7;
   font-size: 18px;
   font-size: 1.125rem;
   font-style: italic;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  position: relative;
+  /*padding-bottom: 40px;*/
+  /*margin-bottom: 40px;*/
+  /*position: relative;*/
 }
 
 p {
-  margin: 0 0 20px;
+  /*margin: 0 0 20px;*/
 }
 
 .single-post__text p, .single-post__text ul {
   padding: 0 15px;
-}
-
-.single-post__text p, .single-post__text ul {
-  /* line-height: 1.7; */
 }
 
 .c-social--share {
@@ -179,35 +195,12 @@ p {
   list-style: none;
 }
 
-.c-social--share .c-social__network {
-  margin: 0 0 0 10px;
-}
-
-.c-social__network:first-child {
-  margin-left: 0;
-}
-
-.c-social__network {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-html .mb0 {
-  margin-bottom: 0px;
-}
-
 .single-post__text p, .single-post__text ul {
   padding: 0 15px;
 }
 
-.bare-list, .mini-cart .cart_list, .woocommerce-order-received .woocommerce-thankyou-order-details {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
 .c-item__list {
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   text-transform: uppercase;
   letter-spacing: 0.115em;
   font-family: "Tw Cen W01 Light", sans-serif;
@@ -215,7 +208,7 @@ html .mb0 {
   font-size: 0.75rem;
 }
 
-user agent stylesheet ul, menu, dir {
+/*user agent stylesheet ul, menu, dir {
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
@@ -223,17 +216,17 @@ user agent stylesheet ul, menu, dir {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
-}
+}*/
 
-.c-paywall {
+/*.c-paywall {
   margin-left: 15px;
   margin-right: 15px;
-}
+}*/
 
 .c-paywall {
   border-top: 1px solid #E1E0E1;
-  padding-top: 25px;
-  margin-top: 30px;
+  /*padding-top: 25px;*/
+  /*margin-top: 30px;*/
 }
 
 .medium-3 {
@@ -259,7 +252,7 @@ a {
   height: 100%;
 }
 
-.c-item--issue {
+/*.c-item--issue {
   margin-right: 15px;
 }
 
@@ -281,10 +274,10 @@ a {
 
 .c-item--vertical .c-item__image {
   margin-bottom: 7px;
-}
+}*/
 
 .c-item__image img {
-  display: block;
+  /*display: block;*/
   width: 100%;
 }
 
@@ -294,7 +287,7 @@ a {
 }
 
 figure {
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .a--none {
@@ -303,8 +296,8 @@ figure {
 }
 
 .c-credits {
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
   list-style: none;
   font-style: italic;
   color: #333333;
