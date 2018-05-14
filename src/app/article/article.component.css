@@ -156,25 +156,15 @@ body {
   font-size: 0.75rem;
 }
 
-/*user agent stylesheet ul, menu, dir {
-  display: block;
-  list-style-type: disc;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
-}*/
-
-/*.c-paywall {
+.c-paywall {
   margin-left: 15px;
   margin-right: 15px;
-}*/
+}
 
 .c-paywall {
   border-top: 1px solid #E1E0E1;
-  /*padding-top: 25px;*/
-  /*margin-top: 30px;*/
+  padding-top: 25px;
+  margin-top: 30px;
 }
 
 .medium-3 {
@@ -200,22 +190,6 @@ a {
   height: 100%;
 }
 
-/*.c-item--issue {
-  margin-right: 15px;
-}
-
-.c-item--issue {
-  margin-bottom: 0;
-}
-
-.c-item--vertical {
-  margin-bottom: 80px;
-}
-
-.c-item--vertical {
-  margin-bottom: 40px;
-}
-
 .c-item--issue .c-item__image {
   margin-bottom: 10px;
 }
@@ -225,7 +199,6 @@ a {
 }*/
 
 .c-item__image img {
-  /*display: block;*/
   width: 100%;
 }
 
@@ -234,18 +207,12 @@ a {
   width:190px;
 }
 
-figure {
-  /*margin: 0;*/
-}
-
 .a--none {
   color: inherit;
   text-decoration: none;
 }
 
 .c-credits {
-  /*margin: 0;
-  padding: 0;*/
   list-style: none;
   font-style: italic;
   color: #333333;
