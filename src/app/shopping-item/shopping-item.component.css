@@ -18,7 +18,7 @@
   display: flex;
 }
 
-.card-img-top:hover {
+.card-img-top img:hover {
   background-color: #e8ebef;
 }
 
