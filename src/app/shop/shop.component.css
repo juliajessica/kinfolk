@@ -12,10 +12,6 @@
   border: none;
 }
 
-.image:hover{
-  background-color: #e8ebef;
-}
-
 .image {
   margin-left: auto;
   margin-right: auto;
@@ -23,6 +19,10 @@
   /*min-width: auto;*/
   display: flex;
   align-items: flex-end;
+}
+
+.image:hover{
+  background-color: #e8ebef;
 }
 
 p {

@@ -16,8 +16,12 @@
   max-height:400px;
   max-width: auto;
   display: flex;
-
 }
+
+.card-img-top:hover {
+  background-color: #e8ebef;
+}
+
 .card-title {
   letter-spacing: 0.025em;
   line-height: 1.2;
