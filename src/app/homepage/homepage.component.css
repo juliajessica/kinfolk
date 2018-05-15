@@ -230,7 +230,7 @@ figure {
   font-weight: lighter;
 }
 
-.banner {
+/*.banner {
   background: url("/assets/img/banner.jpg") no-repeat top center fixed;
   background-size: contain;
   width: 100%;
@@ -238,14 +238,14 @@ figure {
   margin: 0;
   padding: 0;
   position: relative;
-}
+}*/
 
-.wrapper {
+/*.wrapper {
   width: 100%;
   overflow: hidden;
-}
+}*/
 
-.yes {
+/*.banner2 {
   width: 100%;
   margin-right: 0 auto;
-}
+}*/
