@@ -10,9 +10,10 @@
 </p>
 
 ## Screenshots of Application
-![alt text](?raw=true)
-![alt text](?raw=true)
-![alt text](?raw=true)
+
+|  Homepage | Articles | Products |
+| ------------- | ------------- | ------------- |
+| ![homepage](assets/img/homepage.png) | ![article](assets/img/article.png) | ![products](assets/img/product.png) |
 
 ## <span style="color:#74875d;">Description</span>
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
