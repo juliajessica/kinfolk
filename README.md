@@ -13,7 +13,7 @@
 
 |  Homepage | Articles | Products |
 | ------------- | ------------- | ------------- |
-| ![homepage](assets/img/homepage.png) | ![article](assets/img/article.png) | ![products](assets/img/product.png) |
+| ![homepage](https://github.com/juliajessica/kinfolk/blob/master/src/assets/img/homepage.png?raw=true) | ![article](https://github.com/juliajessica/kinfolk/blob/master/src/assets/img/article.png?raw=true) | ![products](https://github.com/juliajessica/kinfolk/blob/master/src/assets/img/product.png?raw=true) |
 
 ## Deployed Firebase App
 https://kinfolk-42023.firebaseapp.com/
