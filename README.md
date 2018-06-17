@@ -1,4 +1,4 @@
-# _<p align="center">Kinfolk Reproduction using Angular, TypeScript, and Firebase :fire:</p></p>_
+# _<p align="center">Kinfolk Clone using Angular, TypeScript, & Firebase :fire:</p></p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 
