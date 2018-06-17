@@ -1,6 +1,4 @@
-# _<p align="center">Julia Sheremet</p>_
-
-#### _<p align="center">Kinfolk Reproduction using Angular, TypeScript, and Firebase :fire:</p>_
+# _<p align="center">Kinfolk Reproduction using Angular, TypeScript, and Firebase :fire:</p></p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 
@@ -89,6 +87,10 @@ _This project uses TypeScript and Angular to create  components and compile code
 ## <span style="color:#74875d;">Known Bugs</span>
 None
 
-## License
+### <span style="color:#74875d;">License</span>
 
-This project is licensed under the MIT License
+Copyright (c) 2018 ****_Julia Sheremet_****
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
